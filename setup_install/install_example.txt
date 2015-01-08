@@ -1,0 +1,19 @@
+#config open repo
+#http://www.tecmint.com/how-to-enable-epel-repository-for-rhel-centos-6-5/
+	# RHEL/CentOS 6 32-Bit ##
+		wget http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
+		rpm -ivh epel-release-6-8.noarch.rpm
+
+	## RHEL/CentOS 6 64-Bit ##
+		wget http://download.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+		rpm -ivh epel-release-6-8.noarch.rpm
+
+
+#update repo
+	 yum update
+
+#search example: java
+	yum search java
+
+#install java
+	yum install java

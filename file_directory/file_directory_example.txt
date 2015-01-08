@@ -1,9 +1,10 @@
 #create 
 	#directory: create aaa folder
-	mkdir 	aaa
+		mkdir 	aaa
 	#file: using vi
+
 #copy
 	#file: coppy file1 to file 2
-	cp file1.txt file2.txt
+		cp file1.txt file2.txt
 	#directory: coppy dir1 to dir2
-	cp -r dir1 dir2
+		cp -r dir1 dir2
