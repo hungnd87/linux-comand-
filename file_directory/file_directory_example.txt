@@ -2,6 +2,8 @@
 	#directory: create aaa folder
 		mkdir 	aaa
 	#file: using vi
+	#create multi files:  example file1.txt file2.txt
+	touch file1.txt file2.txt
 
 #copy
 	#file: coppy file1 to file 2
