@@ -1,0 +1,2 @@
+#find a file has name text with any extension
+	find -name "text.*"
