@@ -1,0 +1,4 @@
+#find a directory
+#example : find text.txt, text.doc ... in root
+   cd /
+   find -name "text.*"
