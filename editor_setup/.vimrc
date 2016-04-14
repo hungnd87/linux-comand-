@@ -4,4 +4,6 @@
 :noremap ] }
 :noremap ; :
 :noremap 4 $ 
-:imap jj <ESC> 
+:imap jj <ESC>
+:map kj <ESC>
+:imap kj <ESC>
